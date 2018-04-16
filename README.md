@@ -3,7 +3,7 @@ This script download MODIS product. It is part of a framework allowing to fetch 
 
 The repository is separated for MYD and MOD time satellite captures. Please run the scripts separately for both MYD and MOD time captures.
 
-Please contact [S. Manandhar](SHILPA005@e.ntu.edu.sg) or [S. Dev](https://soumyabrata.github.io/) for any queries. 
+Please contact [S. Manandhar](mailto:SHILPA005@e.ntu.edu.sg) or [S. Dev](https://soumyabrata.github.io/) for any queries. 
 
 ```
 Manual:
