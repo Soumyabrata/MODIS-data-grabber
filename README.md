@@ -1,6 +1,10 @@
 # MODIS data grabber
 This script download MODIS product. It is part of a framework allowing to fetch and process MODIS Atmosphere products. This is a modification of our original MODIS data grabber. This is done, when the server was migrated from FTP to HTTPS.
 
+The repository is separated for MYD and MOD time satellite captures. Please run the scripts separately for both MYD and MOD time captures.
+
+Please contact [S. Manandhar](SHILPA005@e.ntu.edu.sg) or [S. Dev](https://soumyabrata.github.io/) for any queries. 
+
 ```
 Manual:
         1. Folder structure: this script should be in code/ModisGrabber/. Then you must create a directory named _data/
