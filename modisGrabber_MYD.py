@@ -157,7 +157,7 @@ while (data_time <= final_date):
          print("MG: Initializing connection")
 
 
-         # We need the MOD03, the Geolocalisation Data Set, to know which frame to download. We could also download them all
+         # We need the MYD03, the Geolocalisation Data Set, to know which frame to download. We could also download them all
          # but our connection is slow. We uses the server .txt files.
          print("MG: Downloading Geolocalisation Data Set")
 
