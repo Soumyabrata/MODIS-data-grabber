@@ -117,7 +117,7 @@ while (data_time <= final_date):
          # but our connection is slow. We uses the server .txt files.
          print("MG: Downloading Geolocalisation Data Set")
 
-         geo_filename = 'M0D03_' + str(current_date.tm_year) + '-' + str(current_date.tm_mon).zfill(2) \
+         geo_filename = 'MOD03_' + str(current_date.tm_year) + '-' + str(current_date.tm_mon).zfill(2) \
                         + '-' + str(current_date.tm_mday).zfill(2) + '.txt'
          print (geo_filename)
 
