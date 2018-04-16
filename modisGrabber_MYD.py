@@ -64,56 +64,16 @@ ftp_prefix = '/archive/allData/6/'
 
 
 # Bounding box for our area of interest, see the bounding box directory for more information.
-bounding_box = {'north_lat' : 1.546439,
-                'south_lat' : 1.132124,
-                'west_long' : 103.529044,  ###for Singapore
-                'east_long' : 104.160634}
+bounding_box = {'north_lat' : 33.10,
+                'south_lat' : 31.88,
+                'west_long' : -65.99,  ###for BRMU MYD
+                'east_long' : -63.10}
 
-#bounding_box = {'north_lat' : 50.5641667,
-#               'south_lat' : 50.1641667,  ## for Ukraine
-#               'west_long' : 30.24666,
-#                'east_long' : 30.6966}   ## exact location 50.3641667, 30.4966667
 
-#bounding_box = {'north_lat' : 13.5358333,
-#                'south_lat' : 13.9358333,  ## for Thailand
-#                'west_long' : 100.73338889,
-#                'east_long' : 100.233888}
-                ## exact location 13.7358333,100.533888
-#bounding_box = {'north_lat' : 18.2613889,
-#                'south_lat' : 18.6613889,  ## for Dominican
-#                'west_long' : -69.7111111,
-#                'east_long' : -70.1111111}
-                 ## exact location 18.4613889,-69.9111111
-#bounding_box = {'north_lat' : -43.03,
-#                'south_lat' : -42.63,  ## for Aus Hobart
-#                'west_long' : 147.70,  ## -42.83,147.50
-#                'east_long' : 147.30}
-#bounding_box = {'north_lat' : 40.552778,
-#                'south_lat' : 39.9452778,  ## for Beijing
-#                'west_long' : 116.5238889,  ## 40.2452778,116.2238889
-#                'east_long' : 115.9238889}
-#bounding_box = {'north_lat' : 30.2313889,
-#                'south_lat' : 30.8313889,  ## for Wuhaan
-#                'west_long' : 114.0572222,  ## 30.5313889,114.3572222
-#                'east_long' : 114.6572222}
-#bounding_box = {'north_lat' : 32.0008889,
-#                'south_lat' : 31.6238889,  ## for Japan 31.8238889 130.5994444
-#                'west_long' : 130.7994444 ,
-#                'east_long' : 130.3994444 }
-#bounding_box = {'north_lat' : 20.0011111,
-#               'south_lat' : 19.6011111,  ## for Hawaii 19.8011111,-155.4561111
-#                'west_long' : -155.5561111 ,
-#                'east_long' : -155.3261111 }
 # List the products to download. Uncomment the products you want to download
 # Beware the comma: one comma between each element, no comma at the end.
 product_list = [
-                'MYD35_L2',    # Cloud Mask, Aqua
-                'MOD35_L2',    # Cloud Mask, Terra
-                'MYD05_L2',    # Total Precipitable Water, Aqua
-                'MOD05_L2',    # Total Precipitable Water, Terra
-                'MYD06_L2',    # Cloud Product, Aqua
-                'MOD06_L2'     # Cloud Product, Terra
-                ]
+    'MYD05_L2']
 
 
 # False: Then we download only the products above singapore between 10 and 18 SGT (i.e 0200 and 1000 UTC), when the WSI is up.       [Default]
